@@ -77,8 +77,39 @@ height: 54px;
   margin-top: 3rem;
 }
 
-@media screen and (max-width : 576px) {
-    .containerSi{
-        color: #787E8C;
-    }
+@media screen and (max-width : 480px) {
+
+  .signIncontainer{
+    height: 387px;
+  width: 333px;
+  /* display: flex; */
+  /* margin-left: 5rem; */
+  margin-top: 5rem;
+  /* flex-direction: column; */
+}
+    .inputcontainerSi{
+/* height: 3.375rem;
+  width: 20.75rem; */
+  box-sizing: border-box;
+  border: 0.55px solid rgba(208,208,208,0.5);
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin-bottom: 1rem;
+ 
+
+}
+.inputSi{
+    /* height: 80%;
+    width: 90%; */
+    color: #787E8C;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+    border-style: none;
+}
+.forgotpwdSi{
+  text-align: center;
+}
 }

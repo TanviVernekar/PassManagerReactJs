@@ -13,12 +13,15 @@ export const Home = () => {
             src={require("/Volumes/Development/PassManagerReactjs/passmanager-reactjs/src/images/logo.png")} alt='logo'
           ></img>
           <div className="textcotainer">
-
           <span className="text">Protect & Manage every password in your business</span>
           </div>
+         
         </div>
+        
         <div  className="divider"/>
-       
+        <div className="mainLogo">
+            <img src={require('/Volumes/Development/PassManagerReactjs/passmanager-reactjs/src/images/logomob.png')}></img>
+          </div>
            <SignIn />
 
           {/* <SignUp/> */}
