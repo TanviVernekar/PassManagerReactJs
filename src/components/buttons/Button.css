@@ -1,0 +1,20 @@
+.button {
+    background-color: '#FFFFFF';
+    padding: 10px;
+    /* ma: 40; */
+    max-width: 40%;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-inline-start: 50;
+    height: 44px;
+    width: 130px;
+    margin-top: 20;
+    border-style: none;
+   
+  }
+  .buttontext{
+    text-align: center;
+    color: #0E85FF;
+    font-weight: 600;
+    font-size: 20,
+  }

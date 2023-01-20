@@ -1,0 +1,84 @@
+
+.signUpcontainer{
+    height: 387px;
+  width: 333px;
+  display: flex;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  flex-direction: column;
+}
+.headerSu{
+    height: 27px;
+    width: 305px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+    /* letter-spacing: 1.67px;  */
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.inputcontainerSu{
+height: 54px;
+  width: 332px;
+  box-sizing: border-box;
+  height: 54px;
+  width: 332px;
+  border: 0.55px solid rgba(208,208,208,0.5);
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin-bottom: 1rem;
+ 
+
+}
+.inputSu{
+    height: 90%;
+    width: 80%;
+    color: #787E8C;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-left: 1rem;
+    border-style: none;
+}
+.inputSu:focus{
+    outline: none;
+}
+.forgotpwdSu{
+    height: 19px;
+  width: 154px;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: right;
+  align-self: flex-end;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+.noaccountbtnSu{
+    height: 19px;
+  width: 230px;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: center;
+  background-color: transparent;
+  border-style: none;
+  margin-left: -15px;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width : 576px) {
+    .containerSu{
+        color: #787E8C;
+    }
+}
