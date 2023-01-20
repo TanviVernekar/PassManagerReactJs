@@ -4,7 +4,7 @@ import { Button } from "../../components/buttons/Button";
 import "./SignIn.css";
 export const SignIn = () => {
   return (
-    <div>
+    <div className="maincontainerSi">
         <div className="signIncontainer">
             <span className="headerSi">SIGN IN TO YOUR ACCOUNT</span>
             <div className="inputcontainerSi">
@@ -18,7 +18,7 @@ export const SignIn = () => {
             </div>
             <Button name='SIGN IN'/>
             {/* <NavLink className="noaccountbtnSi" >Don't have a Account? SIGNUP</NavLink> */}
-      {/* <NavLink>signUp</NavLink> */}
+            <img src={require('/Volumes/Development/PassManagerReactjs/passmanager-reactjs/src/images/fingerprint_icon.png')} className='fingerprint'></img>
         </div>
       
     </div>
