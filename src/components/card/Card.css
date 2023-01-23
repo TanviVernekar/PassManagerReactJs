@@ -1,0 +1,17 @@
+.rectangle {
+  height: 115px;
+  width: 363px;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+  box-shadow: 0 8px 18px 10px rgba(0,0,0,0.02);
+}
+
+.innerrectangle {
+  height: 73px;
+  width: 363px;
+  border-radius: 14px 14px 0 0;
+  background-color: #FFFFFF;
+  box-shadow: 0 8px 18px 10px rgba(0,0,0,0.02);
+  display: flex;
+  justify-content: space-between;
+}

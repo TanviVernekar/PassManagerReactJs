@@ -1,0 +1,195 @@
+.main-containerM {
+margin:auto 0;
+}
+.containerM{
+  height: 100vh;
+  width: 100vw;
+ display: flex;
+ 
+
+}
+.sideBarContainer {
+  height: 1024px;
+  width: 120px;
+  background-color: #2892ff;
+
+
+  display: flex;
+  flex-direction: column;
+}
+.hamberger{
+  height: 22px;
+  width: 40px;
+  margin: 40px auto;
+}
+.homeIcon{
+  box-sizing: border-box;
+  height: 41px;
+  width: 41.53px;
+  margin: 40px auto;
+}
+.menucontainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.menubarContainer{
+   height: 104px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin: 25px auto;
+}
+.homelogo{
+  height: 68px;
+  width: 179px;
+  margin:10px 0 0 80px
+}
+.sidemenucontainer{
+  width: 200px;
+  align-items: center;
+  justify-content: space-between;
+ 
+  align-self: center;
+  margin-right: 40px;
+
+}
+.synclogo{
+  height: 35px;
+  width: 60px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 8px 18px 10px rgba(0,0,0,0.03);
+  margin-right: 30px;
+}
+.profilelogo{
+  height: 35px;
+  width: 60px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 8px 18px 10px rgba(0,0,0,0.03);
+
+}
+.homedivider{
+
+  width: 100%;
+  border: 1px solid rgba(236, 241, 236, 0.5);
+}
+.mainhomeconatiner{
+  margin: 0 auto;
+  border-style: dashed;
+  border-width: 2;
+  height: 100%;
+  width: 100%;
+}
+.maininner{
+  width: 85%;
+  height: 90px;
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.sites {
+  height: 41px;
+  width: 69px;
+  color: #3C4857;
+  /* font-family: "Open Sans"; */
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 41px;
+}
+.siteLine{
+  height: 3px;
+        width: 30px;
+        border-radius: 3.5px;
+        background-color: #FFA222;
+}
+.searchAddDiv{
+    display: flex;
+    width: 330px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.searchfielddiv{
+  height: 32px;
+  width: 245px;
+  align-self: center;
+ 
+  display: flex;
+}
+.searchfield{
+  height: 32px;
+  width: 245px;
+  border-style: none;
+  font-size: 18px;
+  
+}
+.searchfield:focus{
+  outline: none;
+}
+.searchIcon{
+  box-sizing: border-box;
+  height: 20px;
+  width: 20px;
+  margin:5px auto;
+  
+}
+.addIcon{
+  height: 48px;
+  width: 48px;
+}
+.searchLine{
+  height: 1px;
+  width: 245px;
+  background-color: #0E85FF;
+  margin-top: -5px;
+}
+.mediadiv{
+  display: flex;
+  width: 85%;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  margin: auto;
+}
+.social-media {
+  height: 33px;
+  width: 141px;
+  color: #3C4857;
+  /* font-family: "Open Sans"; */
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 33px;
+}
+.oval {
+  box-sizing: border-box;
+  height: 37px;
+  width: 37px;
+  border: 1px solid #FFFFFF;
+  background-color: #0E85FF;
+  border-radius: 50%;
+
+  
+}
+.number {
+  height: 27px;
+  width: 23px;
+  color: #FFFFFF;
+  /* font-family: "Open Sans"; */
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+  margin: 0 auto;
+}
+
+.path-copy {
+  box-sizing: border-box;
+  height: 10px;
+  width: 14px;
+  align-self: center;
+  margin-left: 10px;
+}

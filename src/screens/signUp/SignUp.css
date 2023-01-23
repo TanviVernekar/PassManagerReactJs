@@ -16,7 +16,7 @@
     font-weight: 600;
     /* letter-spacing: 1.67px;  */
     line-height: 27px;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 2rem;
 }
 .inputcontainerSu{
@@ -76,9 +76,65 @@ height: 54px;
   margin-left: -15px;
   margin-top: 3rem;
 }
+.fingerprint{
+  display: none;
+}
+.fingerprintText{
+  display: none;
+}
 
 @media screen and (max-width : 576px) {
-    .containerSu{
-        color: #787E8C;
-    }
+  .signUpcontainer{
+    height: 60%;
+    /* width: 100%; */
+    margin:0 auto;
+  display: flex;
+  /* margin-left: 5rem; */
+  /* margin-top: 5rem; */
+  /* flex-direction: column; */
+}
+    .inputcontainerSu{
+  height: 80%;
+  max-width: 90%;
+  box-sizing: border-box;
+  border: 0.55px solid rgba(208,208,208,0.5);
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin-bottom: 1rem;
+
+}
+.inputSu{
+    height: 80%;
+    width: 90%;
+    color: #787E8C;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+    border-style: none;
+}
+
+.fingerprint{
+display: block;
+height: 54px;
+width: 52.31px;
+align-self: center;
+margin-top: 20px;
+}
+.headerSu{
+  display: none;
+}
+.fingerprintText{
+  display: block;
+  height: 21px;
+  width: 219px;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12px;
+  line-height: 21px;
+  text-align: center;
+}
 }

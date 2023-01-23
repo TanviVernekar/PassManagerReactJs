@@ -1,4 +1,4 @@
-.main-container{
+.main-containerHome{
     
     height:100vh;
     width: 100vw;
@@ -7,9 +7,8 @@
     justify-content: center;
 }
 
-
-.container{
-    height: 481px;
+.containerH{
+  height: 481px;
   width: 839px;
   border-radius: 15px;
   background: linear-gradient(180deg, #20BBFF 0%, #0E85FF 100%);
@@ -18,19 +17,17 @@
  
 
 }
-.innercontainer{
+.innercontainerH{
     height:95%;
     width: 330px;
     border-width: 2;
-    border-style: dashed;
-    border-color: #0E85FF;
     margin:10px
 }
-.textcotainer{
+.textcotainerH{
     margin-top: 2rem;
     margin-left: 3rem;
 }
-.text{
+.textH{
 
     height: 54px;
     width: 281px;
@@ -56,12 +53,15 @@
     height: 100%;
     border: 0.5px solid rgba(236, 241, 236, 0.2);  
 }
-.mainLogo{
+.mainLogoH{
+    display: none;
+}
+.Nav-Bar{
     display: none;
 }
 
 @media screen and (max-width : 480px) {
-    .container{
+    .containerH{
         height: 100%;
       width: 100%;
       border-radius: 15px;
@@ -73,14 +73,38 @@
      
     
     }
-    .innercontainer{
+    .innercontainerH{
        display: none;
     }
     .divider{
         display: none;
     }
-    .mainLogo{
+    .mainLogoH{
         display: block;
         margin: 70px 0px 0px 100px;
+    }
+    .Nav-Bar{
+        display: block;
+  
+        width:60%;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        justify-content: space-between;
+        display: flex;
+        
+    }
+    .innernav{
+        display: block;
+        text-decoration: none;
+    }
+     .bottomline {
+        height: 2px;
+        width: 60px;
+        border-radius: 3.5px;
+        background-color: #FFA222;
+        margin-top: -30px;
+   margin-bottom: 30px;
+        margin-left: 90px;
     }
 }

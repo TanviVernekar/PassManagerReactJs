@@ -2,10 +2,10 @@
   margin:0 auto;
 }
 .signIncontainer{
-    height: 60%;
+  height: 60%;
   width: 80%;
   display: flex;
-  margin: auto;
+  /* margin: auto; */
   margin-top: 5rem;
   flex-direction: column;
 }
@@ -22,21 +22,22 @@
     margin-bottom: 2rem;
 }
 .inputcontainerSi{
-height: 80%;
+  height: 80%;
   width: 90%;
   box-sizing: border-box;
-  height: 54px;
-  width: 332px;
+  /* height: 54px;
+  width: 332px; */
   border: 0.55px solid rgba(208,208,208,0.5);
   border-radius: 4px;
   background-color: #FFFFFF;
   margin-bottom: 1rem;
+  padding: 7px;
  
 
 }
 .inputSi{
-    /* height: 90%;
-    width: 80%; */
+    height: 90%;
+    width: 80%;
     color: #787E8C;
     font-family: "Open Sans";
     font-size: 16px;
@@ -86,26 +87,26 @@ height: 80%;
 
   .signIncontainer{
     height: 60%;
-    width: 80%;
-  /* display: flex; */
+    /* width: 100%; */
+    margin:0 auto;
+  display: flex;
   /* margin-left: 5rem; */
-  margin-top: 5rem;
+ 
   /* flex-direction: column; */
 }
     .inputcontainerSi{
   height: 80%;
-  width: 90%;
+  max-width: 90%;
   box-sizing: border-box;
   border: 0.55px solid rgba(208,208,208,0.5);
   border-radius: 4px;
   background-color: #FFFFFF;
   margin-bottom: 1rem;
- 
 
 }
 .inputSi{
-    /* height: 80%;
-    width: 90%; */
+    height: 80%;
+    width: 90%;
     color: #787E8C;
     font-family: "Open Sans";
     font-size: 16px;
@@ -124,5 +125,8 @@ height: 54px;
 width: 52.31px;
 align-self: center;
 margin-top: 20px;
+}
+.headerSi{
+  display: none;
 }
 }

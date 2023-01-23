@@ -1,8 +1,9 @@
 import React from "react";
-import { NavLink,Navigate } from "react-router-dom";
+import { NavLink,Navigate, Link, useNavigate } from "react-router-dom";
 import { Button } from "../../components/buttons/Button";
 import "./SignIn.css";
 export const SignIn = () => {
+  const navigate=useNavigate()
   return (
     <div className="maincontainerSi">
         <div className="signIncontainer">
@@ -15,9 +16,9 @@ export const SignIn = () => {
             </div>
             <div className="forgotpwdSi">
               <span>Forgot your password?</span>
-            </div>
-            <Button name='SIGN IN'/>
-            {/* <NavLink className="noaccountbtnSi" >Don't have a Account? SIGNUP</NavLink> */}
+            </div> 
+            <Button name='SIGN IN' onClick={()=>navigate("/Mainscreen")}/>
+            <Link to = "/SignUp" className="noaccountbtnSi" >Don't have a Account? SIGNUP</Link>
             <img src={require('/Volumes/Development/PassManagerReactjs/passmanager-reactjs/src/images/fingerprint_icon.png')} className='fingerprint'></img>
         </div>
       
