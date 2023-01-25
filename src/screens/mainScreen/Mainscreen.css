@@ -22,11 +22,31 @@ margin:auto 0;
   width: 40px;
   margin: 40px auto;
 }
+.HomeDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.rectangleHome {
+  height: 80px;
+  width: 7px;
+  border-radius: 3px;
+  background-color: #FFA043;
+  margin-left: -2px;
+}
 .homeIcon{
   box-sizing: border-box;
   height: 41px;
   width: 41.53px;
   margin: 40px auto;
+}
+.ovalHome {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background-color: #FFA043;
+  margin-right: -10px;
 }
 .menucontainer{
   display: flex;

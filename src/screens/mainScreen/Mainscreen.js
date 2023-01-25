@@ -10,10 +10,19 @@ export const Mainscreen = () => {
             src={require("../../images/burger_Menu.png")}
             className="hamberger"
           />
+
+          <div className="HomeDiv">
+          <div className="rectangleHome"/>
+
+         
           <img
             src={require("../../images/home_icn.png")}
             className="homeIcon"
           />
+          <div className="ovalHome"/>
+
+          
+          </div>
         </div>
         <div className="menucontainer">
           <div className="menubarContainer">
@@ -130,6 +139,7 @@ export const Mainscreen = () => {
                 <Card />
                 <Card />
                 <Card />
+
               </div>
             </div>
           </div>
