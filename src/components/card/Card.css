@@ -4,6 +4,7 @@
   border-radius: 14px;
   background-color: #FFFFFF;
   box-shadow: 0 8px 18px 10px rgba(0,0,0,0.02);
+
 }
 
 .innerrectangle {
@@ -13,5 +14,71 @@
   background-color: #FFFFFF;
   box-shadow: 0 8px 18px 10px rgba(0,0,0,0.02);
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  align-items: center;
+  
+}
+.image{
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+.facebook {
+  height: 27px;
+  width: 93px;
+  color: #0E85FF;
+  /* font-family: "Open Sans"; */
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-left: 40px;
+}
+.copypwdDiv{
+margin-left: 12px;
+}
+.copy-password {
+  height: 17px;
+  width: 90px;
+  color: #0E85FF;
+  /* font-family: "Open Sans"; */
+  font-size: 12.6px;
+  letter-spacing: 0;
+  line-height: 17px;
+  /* align-self: center; */
+  margin-right: 10px;
+  justify-content: center;
+
+}
+.copyIcon{
+  height: 19.8px;
+  width: 19.8px;
+  align-self: center;
+  margin-right: 2px;
+  /* margin-top: 5px; */
+
+}
+.facebookDiv{
+  padding: 10px;
+align-self: center;
+display: flex;
+/* border-style: dashed; */
+/* height: 30%; */
+align-items: center;
+justify-content: center;
+}
+.www-facebook-com {
+  height: 22px;
+  /* width: 147px; */
+  color: #3C4857;
+  /* font-family: "Open Sans"; */
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+
+  align-self: center;
+  
+ 
+ 
 }

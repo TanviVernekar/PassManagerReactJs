@@ -7,11 +7,11 @@ export const Mainscreen = () => {
       <div className="containerM">
         <div className="sideBarContainer">
           <img
-            src={require("/Volumes/Development/PassManagerReactjs/passmanager-reactjs/src/images/burger_Menu.png")}
+            src={require("../../images/burger_Menu.png")}
             className="hamberger"
           />
           <img
-            src={require("/Volumes/Development/PassManagerReactjs/passmanager-reactjs/src/images/home_icn.png")}
+            src={require("../../images/home_icn.png")}
             className="homeIcon"
           />
         </div>
@@ -19,59 +19,119 @@ export const Mainscreen = () => {
           <div className="menubarContainer">
             <div>
               <img
-                src={require("/Volumes/Development/PassManagerReactjs/passmanager-reactjs/src/images/logo1.png")}
+                src={require("../../images/logo1.png")}
                 className="homelogo"
               />
             </div>
             <div className="sidemenucontainer">
               <img
-                src={require("/Volumes/Development/PassManagerReactjs/passmanager-reactjs/src/images/sync.png")}
+                src={require("../../images/sync.png")}
                 className="synclogo"
               />
               <img
-                src={require("/Volumes/Development/PassManagerReactjs/passmanager-reactjs/src/images/profile.png")}
+                src={require("../../images/profile.png")}
                 className="profilelogo"
               />
             </div>
           </div>
           <div className="homedivider" />
+
+          {/* mobile view start*/}
+          <div className="mainheaderMobM">
+            <div className="hambergerDivMob">
+              <img
+                src={require("../../images/burger_Menu.png")}
+                className="hambergerMob"
+              />
+              <img
+                src={require("../../images/passmanager.png")}
+                className="passmanagerMob"
+              />
+            </div>
+
+            <div className="innerheaderMob">
+              <img
+                src={require("../../images/searchMob.png")}
+                className="searchMob"
+              />
+              <img
+                src={require("../../images/syncMob.png")}
+                className="syncMob"
+              />
+              <img
+                src={require("../../images/profileMob.png")}
+                className="profileMob"
+              />
+            </div>
+          </div>
+
           <div className="mainhomecontainer">
             <div className="maininner">
-              <div style={{flexDirection:'column'}}>
-              <span className="sites">Sites</span>
-              <div className="siteLine"/>
+              <div  className="sitesdiv">
+                <span className="sites">Sites</span>
+                <div className="siteLine" />
               </div>
-              <div style={{flexDirection:'column'}}>
 
-              <div className="searchAddDiv">
-                <div className="searchfielddiv">
-                  <input className="searchfield" placeholder="Search"></input>
+              {/* mobile view */}
+              <div className="mediadivMob">
+              <span className="social-media">Social Media</span>
+              <div className="oval">
+                <span className="number">07</span>
+              </div>
+              <img
+                src={require("../../images/PathCopy.png")}
+                className="path-copy"
+              />
+            </div>
+
+
+
+              <div style={{ flexDirection: "column" }}>
+                <div className="searchAddDiv">
+                  <div className="searchfielddiv">
+                    <input className="searchfield" placeholder="Search"></input>
+                    <img
+                      src={require("../../images/search.png")}
+                      className="searchIcon"
+                    />
+                  </div>
                   <img
-                    src={require("/Volumes/Development/PassManagerReactjs/passmanager-reactjs/src/images/search.png")}
-                    className="searchIcon"
+                    src={require("../../images/add_btn.png")}
+                    className="addIcon"
                   />
                 </div>
-                <img
-                  src={require("/Volumes/Development/PassManagerReactjs/passmanager-reactjs/src/images/add_btn.png")}
-                  className="addIcon"
-                />
+                <div className="searchLine" />
               </div>
-              <div className="searchLine"/>
-
-              </div>
-
             </div>
             <div className="mediadiv">
               <span className="social-media">Social Media</span>
-              <div className="oval"><span className="number">07</span></div>
-              <img src={require('/Volumes/Development/PassManagerReactjs/passmanager-reactjs/src/images/PathCopy.png')} className="path-copy"/>
+              <div className="oval">
+                <span className="number">07</span>
+              </div>
+              <img
+                src={require("../../images/PathCopy.png")}
+                className="path-copy"
+              />
             </div>
-            <div>
-              <Card/>
+
+            <div className="carddivmain">
+              <div className="carddiv">
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+              </div>
             </div>
-
-
-
           </div>
         </div>
       </div>
