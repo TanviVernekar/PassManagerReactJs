@@ -2,6 +2,7 @@
 
 // import { Nav } from "./navigation/Nav";
 // import { Home } from "./screens/home/Home";
+import {AddModel} from "./components/addModel/AddModel";
 import { Mainscreen } from "./screens/mainScreen/Mainscreen";
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <div>
     {/* <Nav/> */}
     {/* <Home/> */}
-    <Mainscreen/>
+    {/* <Mainscreen/> */}
+    <AddModel/>
     </div>
   );
 }

@@ -9,3 +9,13 @@ export const Button=(props)=> {
           </div> 
   )
 }
+export const OutlineButton=(props)=>{
+  return(
+    <div>
+      <button className='outlinebutton' onClick={props.onClick}>
+              <span className='outlinebuttontext'>{props.name}</span>
+            </button>
+            
+    </div>
+  )
+}

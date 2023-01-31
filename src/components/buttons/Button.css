@@ -18,3 +18,25 @@
     font-weight: 600;
     font-size: 20,
   }
+
+  .outlinebutton {
+    background-color: '#FFFFFF';
+    padding: 10px;
+    font-size: 18px;
+    margin-inline-start: 50;
+
+    margin-top: 20;
+    border-style: none;
+    box-sizing: border-box;
+    height: 46px;
+    width: 181px;
+    border: 1px solid #0E85FF;
+    border-radius: 4px;
+   
+  }
+  .outlinebuttontext{
+    text-align: center;
+    color: #0E85FF;
+    font-weight: 600;
+    font-size: 20,
+  }
